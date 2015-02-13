@@ -1,7 +1,6 @@
 package broson
 
 import "encoding/json"
-import "fmt"
 
 type Object map[string]interface{}
 type IterFunc func(bool, string, interface{})
